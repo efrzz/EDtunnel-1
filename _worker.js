@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 
 let userID = '23573aa0-2bd1-47a3-93b9-1af62ad30254';
 let bugXL = 'lipcon.com'
-const พร็อกซีไอพีs = ['172.104.183.50'];
+const พร็อกซีไอพีs = ['168.138.46.67'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
